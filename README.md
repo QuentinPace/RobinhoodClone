@@ -19,7 +19,7 @@ Vite-React, Redux(State-Management)<br><br>
 ### Deployemnt
 Render
 
-![alt text](/readme-assets/Landing-Page.jpg)
+![alt text]([readme-assets/Landing-Page.jpg](https://github.com/Mandeepan/RobinhoodClone/blob/main/react-vite/public/images/signup.jpg))
 ![alt text](/readme-assets/Unassigned.jpg)
 ![alt text](/readme-assets/Form.JPG)
 ![alt text](/readme-assets/Details.JPG)
