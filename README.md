@@ -20,6 +20,9 @@ Vite-React, Redux(State-Management)<br><br>
 Render
 
 ![signup page](/react-vite/public/images/signup.jpg)
-![alt text](/readme-assets/Unassigned.jpg)
-![alt text](/readme-assets/Form.JPG)
-![alt text](/readme-assets/Details.JPG)
+![alt text](/react-vite/public/images/home-dark.jpg)
+![alt text](/react-vite/public/images/stock-dark.jpg)
+![alt text](/react-vite/public/images/portfolio-dark.jpg)
+![alt text](/react-vite/public/images/portfolio-light.jpg)
+![alt text](/react-vite/public/images/stock-light.jpg)
+![alt text](/react-vite/public/images/home-light.jpg)
