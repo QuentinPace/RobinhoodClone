@@ -7,15 +7,17 @@ RobinHoodClone is a streamlined stock trading application inspired by Robinhood,
 ## Technologies
 
 ### Backend
-Python: <br>
-SQLAlchemy, Flask <br><br>
-DataBase: <br>
-PostgreSQL
+- Python
+- SQLAlchemy
+- Flask
+- DataBase: PostgreSQL
 ### Frontend
-JavScript: <br>
-Vite-React, Redux(State-Management)<br><br>
+- JavaScript
+- Vite
+- React
+-  State Management: Redux
 ### Deployment
-Render
+- Render
 
 ### LIVE SITE screenshots
 ![signup page](/react-vite/public/images/signup.jpg)
