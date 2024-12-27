@@ -76,7 +76,7 @@ function Navigation() {
        value={ sessionStorage.getItem("searchText") ? sessionStorage.getItem("searchText") : searchInput}
        onKeyDown={handleKeyDown}
        ></input></div>
-      <div>
+      <div className="profile-button-nav-container">
         <ProfileButton/>
       </div>
     </header>

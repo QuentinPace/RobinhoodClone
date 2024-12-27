@@ -58,3 +58,8 @@
   margin-bottom: 5px;
   outline: none;
 }
+
+.profile-button-nav-container,
+.search-bar-container {
+  margin: auto 0;
+}
