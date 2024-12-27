@@ -2,6 +2,7 @@ import { useEffect,  useState } from 'react';
 import { Chart as ChartJS, LineElement, PointElement, LinearScale, Tooltip, CategoryScale } from 'chart.js';
 import { Line } from 'react-chartjs-2';
 import { useSelector } from 'react-redux';
+import "./StockGraph.css"
 
 
 
@@ -81,10 +82,11 @@ export default function StockGraph() {
 
 
     const options = {
+      responsive: true,
+      maintainAspectRatio: false,
       legend: {
           display: false,
         },
-      responsive: true,
       scales: {
           x: {
             ticks: {
@@ -137,8 +139,8 @@ export default function StockGraph() {
 
 
     return (
-      <div style={{ width: '600px', margin: '0px' }}>
-        <Line data={data} options={options} />
+      <div style={{ width: '100%', margin: '0px' }} className="stock-chart-container">
+        <Line style={{width: "100%"}}data={data} options={options} />
       </div>
     );
 }

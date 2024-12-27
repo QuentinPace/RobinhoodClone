@@ -13,12 +13,17 @@
     border-radius: 4px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
 
     border: 1px solid #363b3d;
 }
 
 .right-menu > div {
     padding-bottom: 20px;
+}
+
+.left-menu {
+    margin-left: 20px;
 }
 
 .right-menu > div:first-child {
@@ -88,4 +93,32 @@
     border: 2px solid #fb641c;
     color: #fb641c;
     cursor: default;
+}
+
+@media(max-width: 955px){
+
+    .left-menu {
+        width: 300px;
+    }
+}
+
+@media(max-width: 600px){
+    .stock-details-page-container {
+        flex-direction: column;
+    }
+
+    .right-menu {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .left-menu {
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 340px){
+    .right-menu {
+        width: 200px;
+    }
 }
