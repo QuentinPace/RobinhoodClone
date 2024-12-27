@@ -44,8 +44,16 @@ main {
     }
 
     .stocks-all-list-home {
-        width: 350px;
+        width: 270px;
         margin-left: 0px;
+    }
+
+    .pagination-footer-home {
+        width: 270px;
+    }
+
+    .stocks-all-list-item-home {
+        width: 40px;
     }
 
     .company-name-list-item-home p{
@@ -54,9 +62,24 @@ main {
 
 }
 
-@media (max-width: 675px) {
-    .watchlist-list-container {
-        display: none
+@media (max-width: 595px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .stocks-all-list-home {
+        margin: 0 auto;
+    }
+
+    .pagination-footer-home {
+        margin: 0 auto;
+    }
+
+    .watchlist-list {
+        margin: 50px auto;
+        height: 230px;
+        width: 220px;
     }
 }
 
